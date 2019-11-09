@@ -1,0 +1,44 @@
+{
+    "name": "fetch-mocker",
+    "version": "0.1.0",
+    "description": "Mock HTTP requests which uses fetch, and send custom responses in runtime",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/suthagar23/fetch-mocker.git"
+    },
+    "keywords": [
+        "fetch",
+        "mock",
+        "response",
+        "custom",
+        "xhr"
+    ],
+    "author": "Suthagar",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/suthagar23/fetch-mocker/issues"
+    },
+    "homepage": "",
+    "dependencies": {},
+    "peerDependencies": {},
+    "husky": {
+        "hooks": {
+            "pre-commit": "yarn lint && yarn stylelint",
+            "pre-push": "yarn test"
+        }
+    },
+    "devDependencies": {
+        "husky": "^3.0.5",
+        "prettier": "^1.13.7",
+        "eslint": "^6.3.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.14.3",
+        "stylelint": "^10.1.0",
+        "stylelint-config-standard": "^18.3.0",
+        "stylelint-high-performance-animation": "^1.2.1",
+        "stylelint-no-unsupported-browser-features": "^3.0.2",
+    }
+}
