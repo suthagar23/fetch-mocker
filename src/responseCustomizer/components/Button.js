@@ -9,7 +9,6 @@ const buttonStyle = {
   borderRadius: 3,
 };
 
-
 const Button = ({ onModalResponseButtonClick, text }) => (
   <button
     type="button"
