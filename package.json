@@ -22,7 +22,10 @@
         "url": "https://github.com/suthagar23/fetch-mocker/issues"
     },
     "homepage": "",
-    "dependencies": {},
+    "dependencies": {
+        "react": "^16.8.4",
+        "react-dom": "^16.8.4"
+    },
     "peerDependencies": {},
     "husky": {
         "hooks": {
